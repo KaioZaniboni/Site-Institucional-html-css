@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   border: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -100,6 +101,12 @@ ul li {
 .text_atualizacoes {
   font-size: 20px;
   color: white;
+}
+
+.text_titulos {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 20px auto;
 }
 
 .input_email {
