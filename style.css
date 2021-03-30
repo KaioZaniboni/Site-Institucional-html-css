@@ -98,17 +98,6 @@ ul li {
   margin-top: -4px;
 }
 
-.text_atualizacoes {
-  font-size: 20px;
-  color: white;
-}
-
-.text_titulos {
-  font-weight: 800;
-  font-size: 20px;
-  margin: 20px auto;
-}
-
 .input_email {
   float: right;
 }
@@ -135,6 +124,17 @@ ul li {
 
 .img_mis_val_vis {
   height: 150px;
+}
+
+.text_atualizacoes {
+  font-size: 20px;
+  color: white;
+}
+
+.text_titulos {
+  font-weight: 800;
+  font-size: 20px;
+  margin: 20px auto;
 }
 
 
