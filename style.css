@@ -110,6 +110,11 @@ ul li {
   width: 175px;
 }
 
+.text_atualizacoes {
+  font-size: 20px;
+  color: white;
+}
+
 
 /* CSS Missao, Valores e Visao */
 
@@ -124,11 +129,6 @@ ul li {
 
 .img_mis_val_vis {
   height: 150px;
-}
-
-.text_atualizacoes {
-  font-size: 20px;
-  color: white;
 }
 
 .text_titulos {
