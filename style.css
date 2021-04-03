@@ -9,11 +9,10 @@ body {
 /* CSS Cabecalho */
 
 .cabecalho {
-  padding-top: 0px;
   background-color: #181717;
   width: 100%;
-  height: 60px;
-  border-bottom: 3px solid rgb(238, 74, 45);
+  height: 80px;
+  border-bottom: 5px solid rgb(238, 74, 45);
 }
 
 .caixa_cabecalho {
@@ -27,19 +26,17 @@ body {
 
 ul {
   list-style: none;
+  display: inline-flex;
 }
 
-ul li {
+ul li a {
   color: white;
-  display: inline;
-  margin-left: 5px;
-  font-size: small;
+  margin-left: 30px;
+  text-decoration: none;
 }
 
 .caixa_cabecalho span {
-  display: inline;
-  margin-left: 5px;
-  font-size: larger;
+  font-size: xx-large;
 }
 
 .detalhe_home_projeto {
@@ -61,7 +58,6 @@ ul li {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -69,12 +65,12 @@ ul li {
 
 .caixa_img {
   text-align: center;
-  justify-content: center;
   width: 80%;
 }
 
 .titulo {
   font-size: 40px;
+  margin: 25px auto;
   color: rgb(238, 74, 45);
 }
 
@@ -82,10 +78,9 @@ ul li {
 /* CSS Atualizacoes */
 
 .corpo_atualizacoes {
-  padding-top: 0px;
   background-color: #181717;
   width: 100%;
-  height: 60px;
+  height: 70px;
 }
 
 .caixa_atualizacoes {
@@ -95,11 +90,11 @@ ul li {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: -4px;
 }
 
-.input_email {
-  float: right;
+.text_atualizacoes {
+  font-size: 25px;
+  color: white;
 }
 
 .caixa_atualizacoes button {
@@ -107,28 +102,31 @@ ul li {
 }
 
 .caixa_atualizacoes input {
-  width: 175px;
+  width: 200px;
+  height: 20px;
 }
 
-.text_atualizacoes {
-  font-size: 20px;
+#button_enviar {
   color: white;
+  border: 0;
+  height: 25px;
+  width: 60px;
+  cursor: pointer;
 }
 
 
 /* CSS Missao, Valores e Visao */
 
 .missao_valores_visao {
-  width: 75%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
   margin: 40px auto;
   text-align: center;
-}  
+}
 
 .img_mis_val_vis {
-  height: 150px;
+  width: 150px;
 }
 
 .text_titulos {
@@ -144,11 +142,11 @@ ul li {
   background-color: rgb(238, 74, 45);
   width: 100%;
   height: 60px;
+  bottom: 0;
 }
 
 .caixa_rodape {
-  display: flex;
-  justify-content: center;
-  text-align: center;
   color: white;
+  text-align: center;
+  padding-top: 5px;
 }
